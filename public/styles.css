@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica';
+  color: #000;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+h3,
+i {
+	margin: 0;
+}
+.commentBox {
+	width: 60%; 
+}
+.comment
+{
+	background: #fff;
+	padding:10px;
+	margin: 10px; 
+	border-radius: 4px;
+}
+
+.commentList {
+	margin-bottom: 25px;
+	text-align: left;
+	background: #00a090;
+	width: 100%;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.commentForm, 
+.commentBox {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.commentList {
+	margin-bottom: 50px;
+}
+
+input {
+	padding: 10px;
+	border-radius: 4px; 
+}
+
+form {
+	width: 80%;
+	padding: 15px 2px 15px 2px;
+	background: #E0AA5A;
+	border-radius: 4px;
+}
+.fa-user {
+	padding-top: 10px;
+}
+
+.fa-minus-circle {
+	padding-top:15px;
+	color: #BE2239;
+}
